@@ -1,5 +1,6 @@
 import {
   signInWithGooglePopup,
+  signInWithGoogleRedirect,
   createUserDocumentFromAuth,
 } from '../../utils/firebase/firebase.utils'
 
@@ -12,6 +13,7 @@ const SignIn = () => {
     <div>
       <h1>Sign In Page</h1>
       <button onClick={logGoogleUser}>Sign in with Google Popup</button>
+      <button onClick={logGoogleUser}>Sign in with Google Redirect</button>
     </div>
   )
 }
