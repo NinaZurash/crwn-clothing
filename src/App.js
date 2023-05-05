@@ -4,7 +4,7 @@ import Navigation from './routes/navigation/navigation.component'
 import SignIn from './routes/sign-in/sign-in.component'
 
 const Shop = () => {
-  return <div>This is Shop</div>
+  return <div>This is Puki's Shop ❤️</div>
 }
 const App = () => {
   return (
